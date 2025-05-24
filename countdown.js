@@ -2,38 +2,29 @@
 const NUM_ASSIGNMENTS = 30;
 
 const assignments = [
-  { title: "COS1501 Quiz-1", due: new Date(2025, 4, 13, 11, 0, 0) },
-  { title: "COS1501 Quiz-2", due: new Date(2025, 5, 23, 11, 0, 0) },
-  { title: "COS1501 Asign-1", due: new Date(2025, 6, 25, 11, 0, 0) },
-  { title: "MAT1512 Asign-1", due: new Date(2025, 4, 16, 11, 0, 0) },
-  { title: "MAT1512 Asign-2", due: new Date(2025, 4, 29, 9, 0, 0) },
-  { title: "MAT1512 Asign-3", due: new Date(2025, 5, 13, 11, 0, 0) },
-  { title: "MAT1512 Asign-4", due: new Date(2025, 5, 30, 11, 0, 0) },
-  { title: "MAT1512 Asign-5", due: new Date(2025, 6, 18, 11, 0, 0) },
-  { title: "MAT1512 Asign-6", due: new Date(2025, 6, 31, 11, 0, 0) },
-  { title: "APM1513 Quiz-1(Done)", due: new Date(2025, 4, 6, 11, 59, 0) },
-  { title: "APM1513 Asign-1", due: new Date(2025, 5, 6, 11, 59, 0) },
-  { title: "APM1513 Asign-2", due: new Date(2025, 6, 4, 11, 59, 0) },
-  { title: "APM1513 Asign-3", due: new Date(2025, 7, 8, 11, 59, 0) },
-  { title: "COS1521 Quiz-1", due: new Date(2025, 4, 27, 11, 59, 0) },
-  { title: "COS1521 Quiz-2", due: new Date(2025, 5, 17, 11, 59, 0) },
-  { title: "COS1521 Quiz-3", due: new Date(2025, 6, 22, 11, 59, 0) },
-  { title: "COS1521 Forum", due: new Date(2025, 7, 12, 11, 59, 0) },
-  { title: "COS1521 Quiz-4", due: new Date(2025, 8, 2, 11, 59, 0) },
-  { title: "COS1511 Quiz-1(Done)", due: new Date(2025, 3, 16, 15, 0, 0) },
-  { title: "COS1511 Asign-1", due: new Date(2025, 5, 2, 11, 59, 0) },
-  { title: "COS1511 Quiz-2", due: new Date(2025, 7, 4, 9, 0, 0) },
-  { title: "COS1512 Quiz-1", due: new Date(2025, 4, 20, 11, 0, 0) },
-  { title: "COS1512 Review-1", due: new Date(2025, 7, 26, 11, 0, 0) },
-  { title: "COS1512 Review-2", due: new Date(2025, 8, 9, 11, 0, 0) },
-  { title: "COS1512 Quiz-2", due: new Date(2025, 8, 23, 11, 0, 0) },
-  { title: "MAT1503 Quiz-1(Done)", due: new Date(2025, 4, 22, 11, 0, 0) },
-  { title: "MAT1503 Asign-1", due: new Date(2025, 5, 27, 12, 0, 0) },
-  { title: "MAT1503 Asign-2", due: new Date(2025, 6, 31, 12, 0, 0) },
-  { title: "MAT1503 Asign-3", due: new Date(2025, 7, 29, 12, 0, 0) },
-  { title: "MAT1503 Quiz-2", due: new Date(2025, 8, 30, 12, 0, 0) }
- 
- 
+  { title: "COS2601 Assessment 2", due: new Date(2025, 5, 26, 11, 0, 0) },
+  { title: "COS2601 Quiz 3", due: new Date(2025, 7, 15, 11, 0, 0) },
+  { title: "COS2601 Quiz 4", due: new Date(2025, 8, 26, 11, 0, 0) },
+  { title: "COS2611 Assessment 2", due: new Date(2025, 6, 21, 11, 0, 0) },
+  { title: "COS2614 Asignment 2", due: new Date(2025, 6, 20, 11, 0, 0) },
+  { title: "COS2614 Asignment 3", due: new Date(2025, 7, 14, 11, 0, 0) },
+  { title: "COS2614 Asignment 4", due: new Date(2025, 8, 18, 11, 0, 0) },
+  { title: "COS2621 Asignment 2", due: new Date(2025, 7, 14, 7, 0, 0) },
+  { title: "COS2621 Asignment 3", due: new Date(2025, 8, 1, 5, 0, 0) },
+  { title: "COS2661 Assignment 2", due: new Date(2025, 5, 25, 11, 0, 0) },
+  { title: "COS2661 Asignment 3", due: new Date(2025, 7, 28, 8, 0, 0) },
+  { title: "ICT2621 Asignment 3", due: new Date(2025, 6, 22, 11, 0, 0) },
+  { title: "ICT2622 Quiz 1", due: new Date(2025, 4, 27, 11, 0, 0) },
+  { title: "ICT2622 Quiz 2", due: new Date(2025, 5, 17, 11, 0, 0) },
+  { title: "ICT2622 Assignment 3", due: new Date(2025, 7, 5, 11, 0, 0) },
+  { title: "ICT2622 Quiz 4", due: new Date(2025, 8, 2, 11, 0, 0) },
+  { title: "INF1505 Quiz 2", due: new Date(2025, 5, 17, 4, 0, 0) },
+  { title: "INF1505 Quiz 3", due: new Date(2025, 7, 5, 5, 0, 0) },
+  { title: "INF1505 Quiz 4", due: new Date(2025, 8, 24, 7, 0, 0) },
+  { title: "INF2611 Quiz 1", due: new Date(2025, 4, 26, 8, 0, 0) },
+  { title: "INF2611 Quiz 2", due: new Date(2025, 5, 30, 11, 0, 0) },
+  { title: "INF2611 Quiz 3", due: new Date(2025, 7, 22, 11, 0, 0) },
+  { title: "INF2611 Assignment 4", due: new Date(2025, 8, 13, 11, 0, 0) },
   // ... (keep the rest of your assignments here)
 ];
 
@@ -42,13 +33,15 @@ assignments.sort((a, b) => a.due - b.due);
 
 // Color map for courses
 const courseColors = {
-  "COS1501": "#ffb703",
-  "MAT1512": "#219ebc",
-  "APM1513": "#8ac926",
-  "COS1521": "#ff595e",
-  "COS1511": "#1982c4",
-  "COS1512": "#6a4c93",
-  "MAT1503": "#fb5607"
+  "COS2601": "#ffb703",
+  "COS2611": "#219ebc",
+  "COS2614": "#8ac926",
+  "COS2621": "#ff595e",
+  "COS2661": "#1982c4",
+  "ICT2621": "#6a4c93",
+  "ICT2622": "#4bef07",
+  "INF1505": "#fb5d07",
+  "INF2611": "#fb5ae2"
 };
 
 // Create tiles in the DOM
@@ -89,11 +82,11 @@ function updateCountdowns() {
       if (days <= 7) {
         countdownElem.style.color = "#d7263d"; // red
       } else {
-        countdownElem.style.color = "f1f7f0"; // default blue
+        countdownElem.style.color = "#f1f7f0"; // default blue
       }
     } else {
       countdownElem.textContent = "Time's up!";
-      countdownElem.style.color = "f1f7f0" ; // red
+      countdownElem.style.color = "#f1f7f0" ; // red
     }
   });
 }
