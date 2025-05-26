@@ -8,7 +8,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #a5b1c2;
-    background-image: url(images/pexels-raulling-29194144.jpg);
+    /*background-image: url(images/pexels-raulling-29194144.jpg);*/
+    background-image: url(images/roman-denisenko-prP3b_QcysE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,6 +22,8 @@ body {
   h1 {
     text-align: center;
     margin-bottom: 30px;
+    color: #48ff00;
+    font-size: 4.5em;
   }
   
   .tiles-container {
