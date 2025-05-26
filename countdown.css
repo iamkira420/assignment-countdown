@@ -1,50 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     margin: 0;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: #a5b1c2;
-    /*background-image: url(images/pexels-raulling-29194144.jpg);*/
     background-image: url(images/roman-denisenko-prP3b_QcysE-unsplash.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-
-    
-
   }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    /*overflow-y: hidden;*/
+}
   
   h1 {
     text-align: center;
-    margin-bottom: 30px;
-    color: #48ff00;
+    /*margin-bottom: 30px;*/
+    color: #f3f5f2;
     font-size: 4.5em;
   }
   
   .tiles-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    gap: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
   }
   
-  .tile {
+  /*.tile {
     background: #ffffff52;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 20px;
     text-align: center;
-    transition: box-shadow 0.2s;
+    transition: transform 0.2s;
   }
-  
   .tile:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }*/
+
+ .tile {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+ }
+  
+  .tile:hover {
+    transform: scale(1.05);
   }
   
   .assignment-title {
@@ -98,4 +117,8 @@ body {
   }
   
   
-  
+@media (max-width: 600px) {
+  .tiles-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
