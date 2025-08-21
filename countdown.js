@@ -8,7 +8,7 @@ const assignments = [
   { title: "COS2611 Assessment 2", due: new Date(2025, 6, 21, 23, 0, 0) },
   { title: "COS2614 Asignment 2", due: new Date(2025, 5, 20, 23, 0, 0) },
   { title: "COS2614 Asignment 3", due: new Date(2025, 7, 14, 23, 0, 0) },
-  { title: "COS2614 Asignment 4", due: new Date(2025, 8, 18, 23, 0, 0) },
+  { title: "COS2614 Quiz 4", due: new Date(2025, 8, 18, 23, 0, 0) },
   { title: "COS2621 Asignment 2", due: new Date(2025, 7, 15, 7, 23, 59) },
   { title: "COS2621 Asignment 3", due: new Date(2025, 8, 1, 17, 0, 0) },
   { title: "COS2661 Assignment 2", due: new Date(2025, 5, 25, 23, 0, 0) },
@@ -24,6 +24,7 @@ const assignments = [
   { title: "INF2611 Quiz 1", due: new Date(2025, 4, 26, 8, 0, 0) },
   { title: "INF2611 Quiz 2", due: new Date(2025, 5, 30, 23, 0, 0) },
   { title: "INF2611 Quiz 3", due: new Date(2025, 7, 22, 23, 0, 0) },
+  { title: "COS2611 Assessment 3", due: new Date(2025, 8, 15, 23, 0, 0) },
   { title: "INF2611 Assignment 4", due: new Date(2025, 8, 13, 23, 0, 0) },
   // ... (keep the rest of your assignments here)
 ];
